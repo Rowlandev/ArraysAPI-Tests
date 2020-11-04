@@ -2,13 +2,15 @@ package edu.indwes.cis330.arrays;
 
 public class ArraysAPI implements INumArrayUtils {
 	
+	/* Add item to array at specified position */
 	public void addItem(int number, int[] array, int position) {
-		for (int i = array.length-1; i > position; i--) {
-			array[i] = array[i-1];
+		for (int i = array.length - 1; i > position; i--) {
+			array[i] = array[i - 1];
 		}
 		array[position] = number;
 	}
 	
+	/* Remove item from array at specified position */
 	public void removeItem(int number, int[] array) {
         int[] tempArray = new int[array.length];
         int j = 0;
@@ -18,7 +20,7 @@ public class ArraysAPI implements INumArrayUtils {
             	j++;
             }
         }
-        for(int i = j; i< array.length; i++) {
+        for(int i = j; i < array.length; i++) {
             tempArray[i] = 0;
         }
         for (int i = 0; i < tempArray.length;i++)
