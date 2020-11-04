@@ -1,7 +1,11 @@
 package edu.indwes.cis330.arrays;
 import org.junit.Test;
 
+// Chapter 6 -> Input Space Partitioning
+
 public class MBCC {
+	
+	// MARK: -> Insert Items
 	
 	 // Partition 1 -> Empty Array
 	 // Partition 2 -> Positive Integers
