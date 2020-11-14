@@ -6,7 +6,7 @@ public interface INumArrayUtils {
 	 * Adds a number into the array at the position desired.
 	 * Any numbers existing after the position are shifted 
 	 * to the next index in order to create room for the new
-	 * number. For example, adding 1 and position 2 to the array
+	 * number. For example, adding 1 in position 2 to the array
 	 * [2, 4, 5, 6, 0] would result in [2, 4, 1, 5, 6]. Note
 	 * that the number at the last position is discarded.
 	 * 
