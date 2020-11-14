@@ -1,7 +1,7 @@
 package edu.indwes.cis330.arrays;
 import org.junit.Test;
 
-public class MBCC {
+public class RACC {
 	
 	 // Partition 1 -> Empty Array
 	 // Partition 2 -> Positive Integers
