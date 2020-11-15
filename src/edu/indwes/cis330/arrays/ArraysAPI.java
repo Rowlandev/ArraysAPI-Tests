@@ -1,4 +1,4 @@
-package edu.indwes.cis330.arrays;
+
 
 public class ArraysAPI implements INumArrayUtils {
 	
