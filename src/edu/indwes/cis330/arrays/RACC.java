@@ -27,16 +27,14 @@ public class RACC {
 		arr = new int[] {1, 2, 3, 4, 5};
 		expectedArr = new int[] {1, 2, 3, 4, 5};
 		
-//		arrayAPI.addItem(1, arr, 5);
 		try{
 			arrayAPI.addItem(1, arr, 5);
 					}
 		catch(Exception e){
-//			System.out.print(e);
+			areEqualArrays = arrayAPI.arraysAreEqual(arr, expectedArr);
+			assertTrue("Insert: Test 2/2 Passes", areEqualArrays);
 		}
 		
-		areEqualArrays = arrayAPI.arraysAreEqual(arr, expectedArr);
-		assertTrue("Insert: Test 2/2 Passes", areEqualArrays);
 	}
 	
 
